@@ -34,11 +34,6 @@ Chat with PDF is an interactive AI chatbot built with Streamlit, designed to all
     pip install -r requirements.txt
     ```
 
-4. **Create a `.env` file** in the root directory and add your API keys:
-    ```
-    GOOGLE_API_KEY=your_google_api_key
-    ```
-
 ## Usage
 
 1. **Run the Streamlit app**:
