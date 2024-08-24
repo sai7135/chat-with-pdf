@@ -14,6 +14,9 @@ Chat with PDF is an interactive AI chatbot built with Streamlit, designed to all
 ## Prerequisites
 
 - **Python**: Version 3.12 or higher is required.
+- **API Keys Required**:
+    - Get your Groq API key from [Groq API Key Page](https://console.groq.com/keys).
+    - Get your Google API key from [Google API Key Page](https://aistudio.google.com/app/apikey).
 
 ## Installation
 

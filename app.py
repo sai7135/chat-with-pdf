@@ -37,6 +37,12 @@ with st.sidebar:
 
     st.header("Settings")
 
+    st.write(
+        "🔑 **API Keys Required**:\n"
+        "- Get your Groq API key from [Groq API Key Page](https://console.groq.com/keys).\n"
+        "- Get your Google API key from [Google API Key Page](https://aistudio.google.com/app/apikey)."
+    )
+
     # Input fields for API keys
     groq_api_key = st.text_input("Enter your Groq API key:", type="password")
     google_api_key = st.text_input("Enter your Google API key:", type="password")
