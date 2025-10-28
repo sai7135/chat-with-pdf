@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 from langchain_groq import ChatGroq
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import CharacterTextSplitter
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains import create_retrieval_chain
@@ -105,7 +105,7 @@ with st.sidebar:
                                 all_docs.extend(docs)
 
                             # Split documents into manageable chunks
-                            text_splitter = RecursiveCharacterTextSplitter(
+                            text_splitter = CharacterTextSplitter(
                                 chunk_size=1000, chunk_overlap=200
                             )
                             final_documents = text_splitter.split_documents(all_docs)
