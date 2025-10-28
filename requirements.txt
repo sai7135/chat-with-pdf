@@ -5,7 +5,6 @@ PyPDF2
 langchain_google_genai
 langchain
 streamlit
-langchain_community
 langchain-community
 pypdf
 google-cloud-aiplatform>=1.38
